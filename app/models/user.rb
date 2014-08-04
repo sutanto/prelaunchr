@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "Shave<br>Cream",
             "class" => "two",
-            "image" => "refer/cream-tooltip@2x.png"
+            "image" => "/assets/refer/cream-tooltip@2x.png"
         },
         {
             'count' => 10,
             "html" => "Truman Handle<br>w/ Blade",
             "class" => "three",
-            "image" => "refer/truman@2x.png"
+            "image" => "/assets/refer/truman@2x.png"
         },
         {
             'count' => 25,
             "html" => "Winston<br>Shave Set",
             "class" => "four",
-            "image" => "refer/winston@2x.png"
+            "image" => "/assets/refer/winston@2x.png"
         },
         {
             'count' => 50,
             "html" => "One Year<br>Free Blades",
             "class" => "five",
-            "image" => "refer/blade-explain@2x.png"
+            "image" => "/assets/refer/blade-explain@2x.png"
         }
     ]
 
